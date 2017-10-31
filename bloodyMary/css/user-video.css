@@ -1,0 +1,13 @@
+.user-video {
+	filter: blur(0);
+	height: 100%;
+	left: 0;
+	position: absolute;
+	transition: filter 2s;
+	top: 0;
+	width: 100%;
+}
+
+.lights-are-off .user-video {
+	filter: blur(4px);
+}

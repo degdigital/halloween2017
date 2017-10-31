@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <head>
+		<style>
+			body {
+				background-color: #000000;
+			}
+			.bg {
+				position: absolute;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+			}
+			.stuff {
+				width: 90%;
+				display: block;
+				margin: 0 auto;
+				position: relative;
+			}
+			.stuff img {
+				width: 100%;
+			}
+			.options {
+				width: 100%;
+				position: absolute;
+				margin-left: auto;
+				margin-right: auto;
+				left: 0;
+				right: 0;
+				bottom: 87px;
+				text-align: center;
+			}
+			.horror-option {
+				display: inline-block;
+				margin: 50px;
+				color: #ffffff;
+				font-family: 'Montserrat-Black', sans-serif;
+				font-weight: bold;
+				text-transform: uppercase;
+				border-bottom: 4px solid #983e3a;
+			}
+			.horror-option a, .horror-option a:visited {
+				color: #ffffff;
+				transition: all .2s ease-in;
+				text-decoration: none;
+			}
+			.horror-option a:hover {
+				color: #983e3a;
+				text-decoration: none;
+			}
+			.horror-option img {
+				width: 200px;
+			}
+		</style>
+    </head>
+    <body>
+		<div class="bg">
+			<div class="stuff">
+			<img src='img/bg.png'>
+			<div class="options">
+				<div class="horror-option">
+					<a href="/jack-o-lantern">
+						Jack-O-Lantern
+					</a>
+				</div>
+				<div class="horror-option">
+					<a href="/lights-out">
+						Lights Out
+					</a>
+				</div>
+				<div class="horror-option">
+					<a href="/bloodyMary">
+						Bloody Mary
+					</a>
+				</div>
+			</div>
+			</div>
+		</div>
+    </body>
+</html>

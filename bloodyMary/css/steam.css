@@ -1,0 +1,53 @@
+.steam {
+	background: rgba(236,236,236,0.6);
+	height: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	transition: opacity 2s;
+	width: 100%;
+}
+
+.steam-text {
+	mix-blend-mode: overlay;
+	opacity: 0;
+	position: absolute;
+	transition: opacity 5s;
+	width: 80%;
+}
+
+.steam-text--1 {
+	top: 20%;
+	transform: translateX(9%);
+	transition-delay: 1.75s;
+}
+
+.steam-text--2 {
+	top: 50%;
+	transform: translate(17%, -50%);
+	transition-delay: 2.5s;
+}
+
+.steam-text--3 {
+	top: 60%;
+	transform: translateX(12%);
+	transition-delay: 3.25s;
+}
+
+.lights-are-off .steam,
+.lights-are-off .steam-text {
+	opacity: 1;
+}
+
+.lights-are-off .steam.is-hidden {
+	visibility: hidden;
+}
+
+.steam-text.steam-text--1.is-hidden,
+.steam-text.steam-text--2.is-hidden,
+.steam-text.steam-text--3.is-hidden {
+	opacity: 0;
+	transition-delay: 0s;
+	transition: opacity 1s;
+}

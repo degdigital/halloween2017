@@ -1,0 +1,39 @@
+.bathroom,
+.bathroom:before,
+.bathroom:after {
+	background-position: right top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+}
+
+.bathroom {
+	background-image: url('../images/bathroom.png');
+}
+
+.bathroom:before,
+.bathroom:after {
+	content: "";
+	display: block;
+	right: 0;
+	opacity: 0;
+	top: 0;
+	transition: opacity 2s;
+
+}
+
+.bathroom:before {
+	background-image: url('../images/grime.gif');
+	mix-blend-mode: multiply;
+}
+
+.bathroom:after {
+	background-image: url('../images/cobwebs.png');
+}
+
+.lights-are-off .bathroom:before,
+.lights-are-off .bathroom:after {
+	opacity: 1;
+}

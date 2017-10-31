@@ -1,0 +1,23 @@
+{
+  "name": "halloween2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server --ssl ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/degdigital/halloween2017.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/degdigital/halloween2017/issues"
+  },
+  "homepage": "https://github.com/degdigital/halloween2017#readme"
+}

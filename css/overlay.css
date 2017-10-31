@@ -1,0 +1,24 @@
+.next {
+	visibility: hidden;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #000000;
+	opacity:.9;
+	z-index: 1000;
+}
+
+.next.show {
+	visibility: visible;
+}
+
+.next .links a {
+	color: green;
+}
+
+.next .links.disabled a {
+	pointer-events:none;
+	color: gray;
+}

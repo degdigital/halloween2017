@@ -1,0 +1,27 @@
+.big-mary {
+	z-index: 70;
+}
+
+.bathroom {
+	z-index: 60;
+}
+
+.mirror {
+	z-index: 50;
+}
+
+.steam-text {
+	z-index: 40;
+}
+
+.mary {
+	z-index: 30;
+}
+
+.steam {
+	z-index: 20;
+}
+
+.user-video {
+	z-index: 10;
+}

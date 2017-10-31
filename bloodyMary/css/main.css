@@ -1,0 +1,25 @@
+@import "reset.css";
+@import "bathroom.css";
+@import "mirror.css";
+@import "steam.css";
+@import "mary.css";
+@import "user-video.css";
+@import "zindex.css";
+
+body {
+	background: #000;
+}
+
+.fade-in {
+	animation: 3s ease-in-out 0s 1 both fade-in;
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}

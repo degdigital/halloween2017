@@ -1,0 +1,33 @@
+.mary {
+	background-image: url('../images/mary-1.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	left: 0;
+	mix-blend-mode: multiply;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.mary.is-active {
+	opacity: 1;
+}
+
+.big-mary {
+	background: url('../images/bigmary.png') bottom center no-repeat;
+	background-size: contain;
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	visibility: hidden;
+	width: 100%;
+}
+
+.big-mary.is-active {
+	visibility: visible;
+}
